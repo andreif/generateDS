@@ -26,12 +26,12 @@ methods to the subclasses in order to process the contents of an
 XML document.""",
     platforms="platform-independent",
     license="http://www.opensource.org/licenses/mit-license.php",
-##     py_modules=[
-##         "generateDS",
-##         "process_includes", 
-##         "gui.generateds_gui",
-##         "gui.generateds_gui_session",
-##         ],
+    py_modules=[
+        "generateDS",
+        "process_includes",
+        "gui.generateds_gui",
+        "gui.generateds_gui_session",
+        ],
     # include_package_data=True,
     packages = [
         "libgenerateDS",
